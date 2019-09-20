@@ -1,0 +1,134 @@
+/* all screen */
+
+@font-face {
+    font-family: quicksand-regular;
+    src: url('../fonts/quicksand-regular.ttf');
+}
+
+@font-face {
+    font-family: fa-solid-900;
+    src: url('../fonts/fa-solid-900.woff');
+}
+
+@font-face {
+    font-family: fa-brands-400;
+    src: url('../fonts/fa-brands-400.woff');
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(30, 30, 30);
+    background-color: rgb(255, 255, 255);
+    color: inherit;
+    line-height: inherit;
+    font-family : inherit;
+    font-size: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(30, 30, 30);
+    background-color: rgb(255, 255, 255);
+    color: inherit;
+    line-height: inherit;
+    font-family : inherit;
+    font-size: inherit;
+}
+
+input:focus {
+    outline: none;
+}
+
+select {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(30, 30, 30);
+    background-color: rgb(255, 255, 255);
+    color: inherit;
+    line-height: inherit;
+    font-family : inherit;
+    font-size: inherit;
+}
+
+select:focus {
+    outline: none;
+}
+
+textarea {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(30, 30, 30);
+    background-color: rgb(255, 255, 255);
+    color: inherit;
+    line-height: inherit;
+    font-family : inherit;
+    font-size: inherit;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+a {
+    color: inherit;
+    line-height: inherit;
+    font-family : inherit;
+    font-size: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+::placeholder {
+    color: rgb(30, 30, 30);
+}
+
+html {
+    touch-action: manipulation;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    color: rgb(30, 30, 30);
+    line-height: 25px;
+    font-family: quicksand-regular;
+    font-size: 16px;
+}
+
+.font-icon {
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+/* up to 767px */
+
+@media only screen and (max-width: 767px) {
+    
+}
