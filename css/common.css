@@ -164,19 +164,18 @@ body {
 #basic {
     width: 100%;
     font-size: 0;
+    padding-top: 30px;
 }
 
 #basic .column {
     display: inline-block;
     width: 300px;
-    padding: 30px;
     vertical-align: top;
     font-size: 16px;
 }
 
 #basic .column.left {
-    margin-left: 100px;
-    padding: 50px 0 0 0;
+    margin: 30px 0 0 100px;
     width: 260px;
     text-align: left;
 }
@@ -185,24 +184,22 @@ body {
     margin: 0 9px 0 9px;
     border-left: 1px solid rgb(215, 215, 215);
     border-right: 1px solid rgb(215, 215, 215);
-    padding: 60px 30px 30px 30px;
+    padding: 30px;
 }
 
 #basic .column.right {
-    margin-right: 100px;
-    padding: 30px 0 30px 0;
+    margin: 90px 100px 0 0;
     width: 260px;
     text-align: right;
 }
 
 #basic .image {
-    width: 200px;
-    border-radius: 100px;
+    width: 180px;
+    border-radius: 90px;
 }
 
 #basic .resume {
     display: inline-block;
-    margin-top: 80px;
     padding: 15px;
     border: 2px solid rgb(30, 30, 30);
 }
