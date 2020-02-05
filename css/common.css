@@ -162,7 +162,6 @@ body {
 }
 
 #basic {
-    padding: 30px 0 30px 0;
     width: 100%;
     font-size: 0;
 }
@@ -170,33 +169,40 @@ body {
 #basic .column {
     display: inline-block;
     width: 300px;
+    padding: 30px;
     vertical-align: top;
     font-size: 16px;
-    padding: 30px;
 }
 
 #basic .column.left {
-    text-align: center;
+    margin-left: 100px;
+    padding: 50px 0 0 0;
+    width: 260px;
+    text-align: left;
 }
 
 #basic .column.middle {
     margin: 0 9px 0 9px;
     border-left: 1px solid rgb(215, 215, 215);
     border-right: 1px solid rgb(215, 215, 215);
+    padding: 60px 30px 30px 30px;
 }
 
 #basic .column.right {
-    text-align: center;
+    margin-right: 100px;
+    padding: 30px 0 30px 0;
+    width: 260px;
+    text-align: right;
 }
 
 #basic .image {
-    width: 180px;
-    border-radius: 90px;
+    width: 200px;
+    border-radius: 100px;
 }
 
 #basic .resume {
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 80px;
     padding: 15px;
     border: 2px solid rgb(30, 30, 30);
 }
