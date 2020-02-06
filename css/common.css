@@ -198,6 +198,45 @@ body {
     border-radius: 90px;
 }
 
+#basic .icon:before {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: rgb(30, 230, 200);
+    text-align: center;
+    margin-right: 10px;
+}
+
+#basic .dob:before {
+    font-family: fa-solid-900;
+    content: '\f1fd';
+}
+
+#basic .place:before {
+    font-family: fa-solid-900;
+    content: '\f5a0';
+}
+
+#basic .mobile:before {
+    font-family: fa-solid-900;
+    content: '\f3cd';
+}
+
+#basic .email:before {
+    font-family: fa-solid-900;
+    content: '\f0e0';
+}
+
+#basic .skype:before {
+    font-family: fa-brands-400;
+    content: '\f17e';
+}
+
+#basic .messenger:before {
+    font-family: fa-brands-400;
+    content: '\f39f';
+}
+
 #basic .resume {
     display: inline-block;
     padding: 15px;
