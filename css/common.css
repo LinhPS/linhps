@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: quicksand-regular;
-    src: url('../fonts/quicksand-regular.ttf');
+    src: url('../font/quicksand-regular.ttf');
 }
 
 @font-face {
     font-family: fa-solid-900;
-    src: url('../fonts/fa-solid-900.woff');
+    src: url('../font/fa-solid-900.woff');
 }
 
 @font-face {
     font-family: fa-brands-400;
-    src: url('../fonts/fa-brands-400.woff');
+    src: url('../font/fa-brands-400.woff');
 }
 
 button {
@@ -158,7 +158,6 @@ body {
 }
 
 #basic {
-    width: 100%;
     font-size: 0;
     padding-top: 30px;
 }
@@ -171,7 +170,7 @@ body {
 }
 
 #basic .column.left {
-    padding: 30px 0 0 100px;
+    padding-top: 30px;
     width: 180px;
     text-align: left;
 }
@@ -181,7 +180,7 @@ body {
 }
 
 #basic .column.right {
-    padding: 90px 100px 0 0;
+    padding-top: 90px;
     width: 360px;
     text-align: right;
 }
@@ -236,24 +235,36 @@ body {
     border-top: 1px solid rgb(215, 215, 215);
 }
 
-#certification {
-    position: relative;
+#certification .column {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    font-size: 0;
+}
+
+#certification .column.left {
+    font-size: 16px;
+}
+
+#certification .column.middle {
+    font-size: 16px;
+}
+
+#certification .column.right {
+    font-size: 16px;
 }
 
 #certification .badge {
-    width: 145px;
+    display: inline-block;
+    padding-top: 20px;
 }
 
-#certification .badge-professional-scrum-master-i-certificate {
-    position: absolute;
-    top: 30px;
-    right: 145px;
+#certification .badge-professional-scrum-master-i {
+    width: 130px;
 }
 
-#certification .badge-magento2-professional-developer-certificate {
-    position: absolute;
-    top: 30px;
-    right: 0;
+#certification .badge-adobe-certified-expert-magento-commerce-developer {
+    width: 220px;
 }
 
 
