@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no,address=no,email=no" />
   <meta property="og:title" content="Linh Phan Si" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://linhps.github.io/linhps" />
@@ -32,7 +33,7 @@
     .head-info{flex:1}
     h1.name{margin:0;font-size:24px;letter-spacing:0.3px}
     .role{color:var(--accent);margin-top:6px;font-weight:600}
-    .contacts{margin-top:10px;color:var(--muted);font-size:14px;text-decoration:none}
+    .contacts{margin-top:10px;color:var(--muted);font-size:14px;text-decoration:none;pointer-events:none}
     .summary{padding:22px 32px;border-bottom:1px solid rgba(255,255,255,0.03);color:var(--text);line-height:1.5}
 
     .main{display:grid;grid-template-columns:280px 1fr;gap:var(--gap);padding:28px}
@@ -50,14 +51,14 @@
     .section h2{margin:0 0 12px 0;color:var(--accent);font-size:15px}
     .job{padding:14px;border-radius:8px;background:linear-gradient(180deg, rgba(255,255,255,0.006), transparent);border:1px solid rgba(255,255,255,0.02);margin-bottom:12px}
     .job h4{margin:0;font-size:15px}
-    .time{color:var(--muted);font-size:13px;text-decoration:none;margin-top:6px}
+    .time{color:var(--muted);font-size:13px;text-decoration:none;pointer-events:none;margin-top:6px}
     .job p{margin:10px 0;color:var(--text);line-height:1.45}
     .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
     .tag{background:rgba(142,240,214,0.06);color:var(--accent);padding:6px 10px;border-radius:999px;font-size:13px;border:1px solid rgba(142,240,214,0.08)}
     .tag.download{color:var(--download);text-decoration:none;background:rgba(255,179,67,0.06);border:1px solid rgba(255,179,67,0.08)}
     .tag.download:hover{background:rgba(255,179,67,0.12)}
 
-    footer.foot{padding:18px 32px;border-top:1px solid rgba(255,255,255,0.02);color:var(--muted);font-size:13px;text-align:center;text-decoration:none}
+    footer.foot{padding:18px 32px;border-top:1px solid rgba(255,255,255,0.02);color:var(--muted);font-size:13px;text-align:center;text-decoration:none;pointer-events:none}
 
     /* desktop only styles */
     .desktop-only{display:block}
