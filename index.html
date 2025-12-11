@@ -31,7 +31,7 @@
     header.top{display:flex;gap:20px;padding:28px 32px;border-bottom:1px solid rgba(255,255,255,0.03);align-items:center}
     .avatar{width:118px;height:118px;border-radius:12px;background:linear-gradient(135deg, rgba(142,240,214,0.08), rgba(142,240,214,0.03));display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);font-size:22px}
     .head-info{flex:1}
-    h1.name{margin:0;font-size:24px;letter-spacing:0.3px}
+    h1.name{margin:0;font-size:22px;letter-spacing:0.3px}
     .role{color:var(--accent);margin-top:6px;font-weight:600}
     .contacts{margin-top:10px;color:var(--muted);font-size:14px;text-decoration:none;pointer-events:none}
     .summary{padding:22px 32px;border-bottom:1px solid rgba(255,255,255,0.03);color:var(--text);line-height:1.5}
@@ -66,15 +66,19 @@
 
     /* mobile only styles */
     @media (max-width:900px){
-      .main{grid-template-columns:1fr;}
+      .main{grid-template-columns:1fr;padding:10px}
       header.top{flex-direction:row}
       .avatar{width:92px;height:92px}
       .wrap{padding:16px}
+      .summary{font-size:14px}
+      .summary ul{padding-left:16px}
       .desktop-only{display:none}
       .mobile-only{display:block}
-      .col-left{padding-right: 0}
-      .col-right{padding-left: 0}
+      .col-left{padding-right:0}
+      .col-left ul{font-size:14px;line-height:1.5em}
+      .col-right{padding-left:0}
       .job{background:linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.1));border-radius:10px;padding:18px;margin-bottom:16px;border:1px solid rgba(255,255,255,0.02)}
+      .job ul{padding-left:16px;font-size:14px;line-height:1.5em}
     }
   </style>
 </head>
@@ -86,8 +90,8 @@
         <div class="head-info">
           <h1 class="name">Mr. Linh Phan Si</h1>
           <div class="role">Senior Project Manager</div>
-          <div class="contacts desktop-only">Hanoi, Vietnam · +84 34 9914041 · linhps.7994@gmail.com</div>
-          <div class="contacts mobile-only">Hanoi, Vietnam<br/>+84 34 9914041<br/>linhps.7994@gmail.com</div>
+          <div class="contacts desktop-only">Sep 7<sup>th</sup> 1994 · Hanoi, Vietnam · +84 34 9914041 · linhps.7994@gmail.com</div>
+          <div class="contacts mobile-only">Sep 7<sup>th</sup> 1994<br/>Hanoi, Vietnam<br/>+84 34 9914041<br/>linhps.7994@gmail.com</div>
           <div class="tags mobile-only">
             <div style="height:8px"></div>
             <a class="tag download" href="pdf/Resume_LinhPhanSi.pdf" target="_blank" download>Download Resume</a>
@@ -253,8 +257,8 @@
         </section>
       </div>
 
-      <footer class="foot desktop-only">Linh Phan Si © — Hanoi, Vietnam — +84 34 9914041 — linhps.7994@gmail.com</footer>
-      <footer class="foot mobile-only">Linh Phan Si © — Hanoi, Vietnam<br/>+84 34 9914041 — linhps.7994@gmail.com</footer>
+      <footer class="foot desktop-only">Linh Phan Si © — Sep 7<sup>th</sup> 1994 — Hanoi, Vietnam — +84 34 9914041 — linhps.7994@gmail.com</footer>
+      <footer class="foot mobile-only">Linh Phan Si © — Sep 7<sup>th</sup> 1994 — Hanoi, Vietnam<br/>+84 34 9914041 — linhps.7994@gmail.com</footer>
     </div>
   </div>
 </body>
